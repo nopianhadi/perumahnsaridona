@@ -194,7 +194,7 @@ export default function HomePage() {
               data-testid="button-logo"
             >
               <Building2 className="w-6 h-6 text-primary" />
-              <span className="font-bold text-lg" data-testid="text-logo">Pacific Garden Puri</span>
+              <span className="font-bold text-lg" data-testid="text-logo">PT Saridona</span>
             </button>
 
             {/* Desktop Navigation */}
@@ -268,7 +268,7 @@ export default function HomePage() {
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="Pacific Garden Puri"
+            alt="PT Saridona"
             className="w-full h-full object-cover"
             data-testid="img-hero"
           />
@@ -283,7 +283,7 @@ export default function HomePage() {
           </Badge>
 
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6" data-testid="text-hero-title">
-            Pacific Garden Puri
+            PT Saridona
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto" data-testid="text-hero-subtitle">
             Hunian Modern Minimalis dengan Lokasi Strategis dan Fasilitas Lengkap
@@ -360,10 +360,10 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6" data-testid="text-about-title">
-                Tentang Pacific Garden Puri
+                Tentang PT Saridona
               </h2>
               <p className="text-lg text-muted-foreground mb-6" data-testid="text-about-description">
-                Pacific Garden Puri adalah kompleks perumahan modern yang dirancang untuk memberikan
+                PT Saridona adalah kompleks perumahan modern yang dirancang untuk memberikan
                 kenyamanan maksimal bagi keluarga Indonesia. Terletak di lokasi strategis dengan akses
                 mudah ke berbagai fasilitas penting.
               </p>
@@ -391,7 +391,7 @@ export default function HomePage() {
               <div className="rounded-2xl overflow-hidden shadow-xl">
                 <img
                   src={masterplanImage}
-                  alt="Masterplan Pacific Garden Puri"
+                  alt="Masterplan PT Saridona"
                   className="w-full h-auto"
                   data-testid="img-masterplan"
                 />
@@ -522,14 +522,14 @@ export default function HomePage() {
             <div>
               <div className="aspect-video rounded-2xl overflow-hidden shadow-lg mb-6" data-testid="container-map">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126920.20046281283!2d106.68942834218746!3d-6.229386799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta!5e0!3m2!1sen!2sid!4v1699999999999!5m2!1sen!2sid"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126920.20046281283!2d105.9!3d-6.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sPandeglang!5e0!3m2!1sen!2sid!4v1699999999999!5m2!1sen!2sid"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Lokasi Pacific Garden Puri"
+                  title="Lokasi PT Saridona"
                   data-testid="map-location"
                 />
               </div>
@@ -568,9 +568,9 @@ export default function HomePage() {
                   Alamat
                 </h4>
                 <p className="text-muted-foreground" data-testid="text-address-content">
-                  Jl. Pacific Garden Boulevard<br />
-                  Puri Kembangan, Jakarta Barat<br />
-                  DKI Jakarta 11610
+                  Jl. Saridona Boulevard<br />
+                  Pandeglang, Banten<br />
+                  42212
                 </p>
               </Card>
             </div>
@@ -586,7 +586,7 @@ export default function HomePage() {
               Hubungi Kami
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-contact-subtitle">
-              Tertarik dengan Pacific Garden Puri? Hubungi kami untuk informasi lebih lanjut
+              Tertarik dengan PT Saridona? Hubungi kami untuk informasi lebih lanjut
             </p>
           </div>
 
@@ -699,8 +699,8 @@ export default function HomePage() {
                     <Mail className="w-5 h-5 text-primary mt-1" />
                     <div>
                       <p className="font-medium" data-testid="text-contact-email-label">Email</p>
-                      <p className="text-muted-foreground" data-testid="text-contact-email-1">info@pacificgardenpuri.com</p>
-                      <p className="text-muted-foreground" data-testid="text-contact-email-2">sales@pacificgardenpuri.com</p>
+                      <p className="text-muted-foreground" data-testid="text-contact-email-1">info@saridona.com</p>
+                      <p className="text-muted-foreground" data-testid="text-contact-email-2">sales@saridona.com</p>
                     </div>
                   </div>
 
@@ -718,9 +718,9 @@ export default function HomePage() {
                     <div>
                       <p className="font-medium" data-testid="text-contact-address-label">Marketing Office</p>
                       <p className="text-muted-foreground" data-testid="text-contact-address-content">
-                        Jl. Pacific Garden Boulevard<br />
-                        Puri Kembangan, Jakarta Barat<br />
-                        DKI Jakarta 11610
+                        Jl. Saridona Boulevard<br />
+                        Pandeglang, Banten<br />
+                        42212
                       </p>
                     </div>
                   </div>
@@ -748,7 +748,7 @@ export default function HomePage() {
             <div>
               <div className="flex items-center gap-2 mb-4" data-testid="footer-logo">
                 <Building2 className="w-6 h-6" />
-                <span className="font-bold text-lg" data-testid="text-footer-logo">Pacific Garden Puri</span>
+                <span className="font-bold text-lg" data-testid="text-footer-logo">PT Saridona</span>
               </div>
               <p className="text-primary-foreground/90 text-sm" data-testid="text-footer-description">
                 Hunian modern minimalis dengan lokasi strategis dan fasilitas lengkap untuk keluarga Indonesia.
@@ -775,14 +775,14 @@ export default function HomePage() {
               <h4 className="font-semibold mb-4" data-testid="text-footer-contact-title">Kontak Kami</h4>
               <div className="space-y-2 text-sm text-primary-foreground/90">
                 <p data-testid="text-footer-phone">+62 21 1234 5678</p>
-                <p data-testid="text-footer-email">info@pacificgardenpuri.com</p>
-                <p data-testid="text-footer-address">Jl. Pacific Garden Boulevard,<br />Jakarta Barat</p>
+                <p data-testid="text-footer-email">info@saridona.com</p>
+                <p data-testid="text-footer-address">Jl. Saridona Boulevard,<br />Pandeglang, Banten</p>
               </div>
             </div>
           </div>
 
           <div className="border-t border-primary-foreground/20 pt-8 text-center text-sm text-primary-foreground/90">
-            <p data-testid="text-footer-copyright">&copy; 2025 Pacific Garden Puri. All rights reserved.</p>
+            <p data-testid="text-footer-copyright">&copy; 2025 PT Saridona. All rights reserved.</p>
           </div>
         </div>
       </footer>

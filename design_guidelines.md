@@ -1,4 +1,4 @@
-# Design Guidelines: Website Komplek Perumahan
+# Design Guidelines: Website Komplek Perumahan PT Saridona
 
 ## Design Approach
 **Reference-Based Approach** - Drawing inspiration from premium real estate platforms like Airbnb (for property showcasing), combined with clean corporate website aesthetics. The design emphasizes property imagery, clear information hierarchy, and straightforward navigation fitting for Indonesian property market expectations.
